@@ -36,6 +36,6 @@ const sortedRobots = robots.map( function(robot) {
 
 console.log(sortedRobots);
 
-const coloredZebraStripes = zebraStripes.map( function(index,zebra){
+const coloredZebraStripes = zebraStripes.map( function(zebra,index){
   console.log(zebra);
 })
