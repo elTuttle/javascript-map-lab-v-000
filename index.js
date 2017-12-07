@@ -26,7 +26,7 @@ const sortedRobots = robots.map( function(robots) {
   for (const key in robots) {
     console.log(key);
     if (knownDecepticons.includes(robots[key])){
-      console.log(key);
+      //console.log(key);
     }
   }
 });
