@@ -36,15 +36,17 @@ const sortedRobots = robots.map( function(robot) {
 
 
 const coloredZebraStripes = zebraStripes.map( function(zebra,index){
-  color = ""
+  color_string = ""
   console.log(zebra)
   if (index === 0 || index % 2 == 0) {
-    color = "black";
+    color_string = "black";
   }else {
-    color = "white";
+    color_string = "white";
   }
   console.log(color)
   return Object.assign({}, zebra, {
-    color: color
+    color: color_string
   });
 });
+
+console.log(coloredZebraStripes)
