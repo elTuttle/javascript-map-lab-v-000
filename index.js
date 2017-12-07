@@ -24,7 +24,7 @@ const zebraStripes = [
 
 const sortedRobots = robots.map( function(robots) {
   for (var i = 0; i < robots.length; i++) {
-     console.log(i)
+     console.log(i);
   }
 });
 console.log("hello");
