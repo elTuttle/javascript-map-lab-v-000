@@ -43,7 +43,7 @@ const coloredZebraStripes = zebraStripes.map( function(zebra,index){
   }else {
     color_string = "white";
   }
-  console.log(color)
+  console.log(color_string)
   return Object.assign({}, zebra, {
     color: color_string
   });
