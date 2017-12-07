@@ -50,3 +50,4 @@ const coloredZebraStripes = zebraStripes.map( function(zebra,index){
 });
 
 console.log(coloredZebraStripes)
+console.log(zebraStripes)
