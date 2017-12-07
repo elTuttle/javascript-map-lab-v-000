@@ -49,5 +49,5 @@ const coloredZebraStripes = zebraStripes.map( function(zebra,index){
   });
 });
 
-console.log(coloredZebraStripes.typeOf)
+console.log(Array.isArray(coloredZebraStripes))
 console.log(zebraStripes)
