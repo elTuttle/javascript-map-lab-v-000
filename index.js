@@ -48,4 +48,3 @@ const coloredZebraStripes = zebraStripes.map( function(zebra,index){
     color: color_string
   });
 });
-
