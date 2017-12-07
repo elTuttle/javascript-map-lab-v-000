@@ -27,4 +27,3 @@ const sortedRobots = robots.map( function(robots) {
      console.log(i)
   }
 });
-
