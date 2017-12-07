@@ -45,5 +45,5 @@ const coloredZebraStripes = zebraStripes.map( function(zebra,index){
   }
   return Object.assign({}, zebra, {
     color: color
-  })
-})
+  });
+});
