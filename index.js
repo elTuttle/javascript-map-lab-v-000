@@ -23,7 +23,7 @@ const zebraStripes = [
 ];
 
 const sortedRobots = robots.map( function(robots) {
-  for (var i = 0; i < robots.length; i++) {
-    array[i]
+  for (const key in value) {
+     
   }
 });
