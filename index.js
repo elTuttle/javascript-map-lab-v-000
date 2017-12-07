@@ -23,11 +23,7 @@ const zebraStripes = [
 ];
 
 const sortedRobots = robots.map( function(robots) {
-  for (const key in robots) {
-    if (knownDecepticons.includes(robots[key])) {
-      robots[alliance] = "Decepticons"
-    } else {
-      robots[alliance] = "Autobots"
-    }
+  for (let i = 0; i < robots.length; i++) {
+     console.log(robots)
   }
 });
