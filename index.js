@@ -29,7 +29,7 @@ const sortedRobots = robots.map( function(robot) {
   } else {
     alliance_string = "Autobots";
   }
-  return Object.assign({}, autobot, {
+  return Object.assign({}, robot, {
     alliance: alliance_string
   });
 });
