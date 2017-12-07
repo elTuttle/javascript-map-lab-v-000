@@ -28,4 +28,4 @@ const sortedRobots = robots.map( function(robots) {
   }
 });
 
-console.log(sortedRobots)
+console.log(sortedRobots);
